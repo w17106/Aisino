@@ -1,0 +1,54 @@
+
+
+<html><body><h1>用法：先选择您关注的配置库，然后选择时间范围，网站会生成配置库在这段时间内的统计信息</h1></body></html>
+
+<html><h1>生成统计数据的过程会持续3-5分钟，请您耐心等候！</h1></html>
+
+
+
+<html>请选择配置库!</html>
+
+
+<form action="/cgi-bin/svnstat.pl" method="GET" target="_blank">
+<select name="repository">
+<option value="eInvoice">eInvoice</option>
+<option value="eInvoice_51Platform">eInvoice_51Platform</option>
+<option value="eInvoice_ChengDu">eInvoice_ChengDu</option>
+<option value="eInvoice_demo">eInvoice_demo</option>
+<option value="eInvoice_dotnet">eInvoice_dotnet</option>
+<option value="eInvoice_GuangXi" selected>eInvoice_GuangXi</option>
+<option value="eInvoice_GuangZhou">eInvoice_GuangZhou</option>
+<option value="eInvoice_GuangZhou_new">eInvoice_GuangZhou_new</option>
+<option value="eInvoice_HuBei">eInvoice_HuBei</option>
+<option value="eInvoice_JiangSu">eInvoice_JiangSu</option>
+<option value="eInvoice_JiLin">eInvoice_JiLin</option>
+<option value="eInvoice_JiLin_new">eInvoice_JiLin_new</option>
+<option value="eInvoice_QingDao_New">eInvoice_QingDao_New</option>
+<option value="eInvoice_ShangHai">eInvoice_ShangHai</option>
+<option value="eInvoice_ShanDong">eInvoice_ShanDong</option>
+<option value="eInvoice_SuNing">eInvoice_SuNing</option>
+<option value="eInvoice_ValueAddedTax">eInvoice_ValueAddedTax</option>
+<option value="eInvoice_WuHan">eInvoice_WuHan</option>
+<option value="eInvoice_WuHan_New">eInvoice_WuHan_New</option>
+<option value="eInvoice_XiAn">eInvoice_XiAn</option>
+</select> <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+请输入起始时间和结束时间!  <br> <br>
+
+Start Date: <input type="text" name="start_date"> (例：2015-01-10）
+<br>
+<br>
+
+End   Date: <input type="text" name="end_date"> （例：2015-02-10）
+<br>
+(注意：请严格按照示例格式来输入时间，并且2015-01-10 不能输入为 2015-1-10）
+
+<input type="submit" value="Submit">
+</form>
+
+
